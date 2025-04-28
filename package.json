@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "A backend at Vaibhav Code",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,5 +12,9 @@
     "backend"
   ],
   "author": "vaibhav singh",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "nodemon": "^3.1.10"
+  }
 }

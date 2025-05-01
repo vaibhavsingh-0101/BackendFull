@@ -16,6 +16,16 @@ app.use(express.static("public"))
 app.use (cookieParser())
 
 
+///routes
+
+import userRouter from "./routes/user.routes.js"; // ✅ This is a default import
+
+
+////routes declaration
+app.use("/api/v1/users",userRouter)
+
+
+///https://localhost:8000/api/v1/users/registeror any routes
 export  {app}
 
     
